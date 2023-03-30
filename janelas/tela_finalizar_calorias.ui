@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>358</width>
+    <height>439</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>-240</x>
+      <y>-10</y>
+      <width>821</width>
+      <height>451</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagens/finalizar_calculo_calorias.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Line_caloria_ideal">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>190</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Line_caloria_ingerida">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>290</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_finalizar">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>360</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>FIZALIZAR</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

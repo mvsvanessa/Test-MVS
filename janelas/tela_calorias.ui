@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>430</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../imagens/tela_calorias.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Line_peso">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>170</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Line_idade">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>260</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="Line_altura">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>170</y>
+      <width>211</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_sexo">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>260</y>
+      <width>211</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;
+</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_freq">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>360</y>
+      <width>251</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 5px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_calcular">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>350</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>CALCULAR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Button_sair">
+    <property name="geometry">
+     <rect>
+      <x>640</x>
+      <y>350</y>
+      <width>91</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 170, 0);
+color: rgb(255, 255, 255);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>SAIR</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
